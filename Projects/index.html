@@ -9,7 +9,7 @@
 <body>
 
   <header>
-    <h1>Michael Buell</h1>
+    <span class="header-name">Michael Buell</span>
     <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
@@ -18,40 +18,71 @@
         <li><a href="../Contact/index.html">Contact</a></li>
       </ul>
     </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
   </header>
 
+  <div class="page-hero">
+    <h1>Projects</h1>
+    <p>Things I've built — from coursework to side projects.</p>
+  </div>
+
   <main>
-
+ 
     <section id="projects">
-      <h2>Projects</h2>
-
-      <div class="placeholder">
-        <p><strong>[Project Title]</strong></p>
-        <p>[Brief description of what this project does and why you built it.]</p>
-        <p>Technologies used: [e.g., HTML, CSS, JavaScript]</p>
-        <p><a href="#">View Project</a> | <a href="#">GitHub Repo</a></p>
+      <h2>My Work</h2>
+ 
+      <!-- Replace each card with a real project -->
+      <div class="card">
+        <p class="card-title">[Project Title]</p>
+        <p class="card-date">[Month Year]</p>
+        <p>[A short 1–2 sentence description of what this project does and why you built it.]</p>
+        <div class="tags" style="margin-top:12px;">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="btn btn-primary">Live Demo</a>
+          <a href="#" class="btn btn-outline">GitHub</a>
+        </div>
       </div>
-      <br />
-      <div class="placeholder">
-        <p><strong>[Project Title]</strong></p>
-        <p>[Brief description of what this project does and why you built it.]</p>
-        <p>Technologies used: [e.g., Python, Flask]</p>
-        <p><a href="#">View Project</a> | <a href="#">GitHub Repo</a></p>
+ 
+      <div class="card">
+        <p class="card-title">[Project Title]</p>
+        <p class="card-date">[Month Year]</p>
+        <p>[A short 1–2 sentence description of what this project does and why you built it.]</p>
+        <div class="tags" style="margin-top:12px;">
+          <span class="tag">Python</span>
+          <span class="tag">Flask</span>
+          <span class="tag">SQLite</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="btn btn-primary">Live Demo</a>
+          <a href="#" class="btn btn-outline">GitHub</a>
+        </div>
       </div>
-      <br />
-      <div class="placeholder">
-        <p><strong>[Project Title]</strong></p>
-        <p>[Brief description of what this project does and why you built it.]</p>
-        <p>Technologies used: [e.g., React, Node.js]</p>
-        <p><a href="#">View Project</a> | <a href="#">GitHub Repo</a></p>
+ 
+      <div class="card">
+        <p class="card-title">[Project Title]</p>
+        <p class="card-date">[Month Year]</p>
+        <p>[A short 1–2 sentence description of what this project does and why you built it.]</p>
+        <div class="tags" style="margin-top:12px;">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="btn btn-primary">Live Demo</a>
+          <a href="#" class="btn btn-outline">GitHub</a>
+        </div>
       </div>
-
+ 
     </section>
-
+ 
   </main>
 
   <footer>
-    <p>&copy; 2026 Michael Buell. All rights reserved.</p>
+    <p>&copy; 2026 Michael Buell &mdash; <a href="../Contact/index.html">Get in touch</a></p>
   </footer>
 
 </body>
