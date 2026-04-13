@@ -9,7 +9,7 @@
 <body>
 
   <header>
-    <h1>Michael Buell</h1>
+    <span class="header-name">Michael Buell</span>
     <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
@@ -20,36 +20,64 @@
     </nav>
   </header>
 
+  <div class="page-hero">
+    <h1>About Me</h1>
+    <p>A little about who I am.</p>
+  </div>
+
   <main>
 
-    <section id="about-intro">
-      <h2>About Me</h2>
-      <div class="placeholder">
-        <p>[Introduction will go here.]</p>
+    <section id="intro">
+      <h2>Hello, I'm [Your Name]</h2>
+      <div class="card">
+        <p class="placeholder">[Write 2–3 sentences introducing yourself — your background, what excites you about web development, and what you're working toward. Make it personal and genuine!]</p>
       </div>
     </section>
-
+ 
     <section id="skills">
       <h2>Skills</h2>
-      <div class="placeholder">
-        <p>Languages: [e.g., HTML, CSS, JavaScript, Python]</p>
-        <p>Tools &amp; Frameworks: [e.g., Git, React, VS Code]</p>
-        <p>Other: [e.g., problem-solving, communication, teamwork]</p>
+      <div class="card">
+        <p class="card-subtitle">Languages</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">[Add more]</span>
+        </div>
+ 
+        <p class="card-subtitle" style="margin-top:18px;">Tools &amp; Frameworks</p>
+        <div class="tags">
+          <span class="tag">Git</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">[Add more]</span>
+        </div>
+ 
+        <p class="card-subtitle" style="margin-top:18px;">Soft Skills</p>
+        <div class="tags">
+          <span class="tag">Problem-solving</span>
+          <span class="tag">Communication</span>
+          <span class="tag">[Add more]</span>
+        </div>
       </div>
     </section>
-
+ 
     <section id="interests">
       <h2>Interests &amp; Hobbies</h2>
-      <div class="placeholder">
-        <p>[Personal interests and hobbies will go here.]</p>
+      <div class="card">
+        <p class="placeholder">[Share a few personal interests or hobbies — this humanizes your portfolio and helps visitors connect with you beyond your resume.]</p>
       </div>
     </section>
+ 
 
   </main>
 
-  <footer>
-    <p>&copy; 2026 Michael Buell. All rights reserved.</p>
+   <footer>
+    <p>&copy; 2026 Your Name &mdash; <a href="../Contact/index.html">Get in touch</a></p>
   </footer>
+
+  <button id="scroll-top" aria-label="Scroll to top">&#8679;</button>
+ 
+  <script src="main.js"></script>
 
 </body>
 </html>
