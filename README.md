@@ -1,4 +1,4 @@
-# Professional Portfolio — Michael Buell
+# Professional Portfolio - Michael Buell
 
 ## What Is This?
 

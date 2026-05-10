@@ -1,4 +1,4 @@
-# Project Reflection — Professional Portfolio
+# Project Reflection - Professional Portfolio
 ### CMPA 4303 | Michael Buell
 
 ---
@@ -58,4 +58,5 @@ enough to evaluate the output critically - using it as a shortcut without engagi
 the code would have produced something I could not maintain or build upon. About the
 process, I learned that iteration is not a sign something went wrong. The final site
 looks nothing like the skeleton I started with, and every version in between was
-necessary. The willingness to troubleshoot, rewrite, and test something that is not working is not wasted effort and paid off for this project.
+necessary. The willingness to troubleshoot, rewrite, and test something that is not 
+working is not wasted effort and paid off for this project.
