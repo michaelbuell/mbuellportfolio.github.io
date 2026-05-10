@@ -34,7 +34,7 @@ a genuine tool for career development.
 ## What Changed from P01 to P02?
 
 Project 01 was the point at which the site's placeholder content was replaced with real
-personal information — biography, resume content, skills drawn from work history, and
+personal information - biography, resume content, skills drawn from work history, and
 actual project links. The structure and styling at that stage were functional but minimal,
 with no JavaScript, no interactivity, and a basic visual design.
 
