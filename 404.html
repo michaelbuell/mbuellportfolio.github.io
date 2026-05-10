@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found — Michael Buell</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- Google Analytics — replace G-XXXXXXXXXX with your Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body class="error-page">
+
+  <header>
+    <span class="header-name">Michael Buell</span>
+    <span id="section-label" aria-live="polite"></span>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./About Me/index.html">About Me</a></li>
+        <li><a href="./Projects/index.html">Projects</a></li>
+        <li><a href="./Contact/index.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <main>
+    <div class="error-code" aria-hidden="true">404</div>
+    <h1 class="error-title">Page Not Found</h1>
+    <p class="error-message">
+      The page you're looking for doesn't exist or may have been moved.
+      No need to call for backup - just head back to familiar territory.
+    </p>
+    <div class="error-actions">
+      <a href="index.html" class="btn btn-primary">Back to Home</a>
+      <a href="./Projects/index.html" class="btn btn-outline">View My Work</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Michael Buell &mdash; <a href="./Contact/index.html">Get in touch</a></p>
+  </footer>
+
+  <button id="scroll-top" aria-label="Scroll to top">&#8679;</button>
+
+  <script src="./main.js"></script>
+</body>
+</html>
